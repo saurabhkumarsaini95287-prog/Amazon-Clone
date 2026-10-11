@@ -1,0 +1,94 @@
+.order-success-page {
+    min-height: 80vh;
+    background-color: #eaeded;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.success-box {
+    background-color: white;
+    width: 500px;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.success-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: #067d62;
+    color: white;
+    font-size: 45px;
+    line-height: 70px;
+}
+
+.success-box h1 {
+    color: #067d62;
+    margin-bottom: 15px;
+}
+
+.success-message {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.success-box p {
+    color: #555;
+}
+
+.success-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.view-orders-btn,
+.continue-shopping-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.view-orders-btn {
+    background-color: #ffd814;
+    border: 1px solid #f0c14b;
+    color: black;
+}
+
+.continue-shopping-btn {
+    background-color: #007185;
+    border: 1px solid #006570;
+    color: white;
+}
+
+.view-orders-btn:hover,
+.continue-shopping-btn:hover {
+    transform: scale(0.95);
+}
+
+.order-details {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.order-details p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.order-details strong {
+    color: #111;
+}

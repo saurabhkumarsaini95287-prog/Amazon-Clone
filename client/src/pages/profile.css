@@ -1,0 +1,47 @@
+.profile-page {
+    min-height: 80vh;
+    background-color: #eaeded;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-box {
+    width: 500px;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.profile-box h2 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.profile-info {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.profile-info p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.profile-logout {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    background-color: #ffd814;
+    border: 1px solid #f0c14b;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.profile-logout:hover {
+    background-color: #f7ca00;
+}
